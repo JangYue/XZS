@@ -45,6 +45,7 @@
     </navigator>
   </scroll-view>
 </view>
+
 <view class="about">
   <view class="pubTitle">
     <view class="en">introduce</view>
@@ -57,7 +58,7 @@
     <view class="row">从白茶的栽培管理到茶窖存储，每一款产品都诠释着我们追求完美的品质之心，我们拥有最佳的仓储环境，全系列白茶产品，优质的客户服务，致力于打造创新发展、诚信经营的新标杆。</view>
   </view>
 </view>
-
+<!-- // 新闻咨询 -->
 <view class="news">
   <view class="pubTitle">
     <view class="en">News</view>
@@ -70,3 +71,5 @@
     </view>
   </view>
 </view>
+<!-- 底部 -->
+<xzs-footer></xzs-footer>

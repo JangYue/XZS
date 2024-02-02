@@ -1,0 +1,6 @@
+<!--components/xzs-footer/xzs-footer.wxml-->
+<view class="footer">
+  <view class="row">解释权归巷子深贸易有限公司所有</view>
+  <view class="row">Copyright © {{year}} 版权所有</view>
+  <view class="row">山东省济南市中弘广场D座一楼102a</view>
+</view>

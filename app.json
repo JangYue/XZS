@@ -39,6 +39,7 @@
   "usingComponents": {
     "xzs-header":"components/xzs-header/xzs-header",
     "xzs-news-item":"components/xzs-news-item/xzs-news-item",
+    "xzs-footer":"components/xzs-footer/xzs-footer",
     "van-button": "/miniprogram/miniprogram_npm/@vant/weapp/button/index",
     "van-icon":"/miniprogram/miniprogram_npm/@vant/weapp/icon/index"
   },
