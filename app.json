@@ -10,7 +10,6 @@
     "navigationBarTitleText": "巷子深茶美文化馆",
     "navigationBarBackgroundColor": "#000"
   },
-  "style": "v2",
   "componentFramework": "glass-easel",
   "sitemapLocation": "sitemap.json",
   "tabBar": {
@@ -38,7 +37,10 @@
     ]
   },
   "usingComponents": {
-    "xzs-header":"components/xzs-header/xzs-header"
+    "xzs-header":"components/xzs-header/xzs-header",
+    "xzs-news-item":"components/xzs-news-item/xzs-news-item",
+    "van-button": "/miniprogram/miniprogram_npm/@vant/weapp/button/index",
+    "van-icon":"/miniprogram/miniprogram_npm/@vant/weapp/icon/index"
   },
   "lazyCodeLoading": "requiredComponents"
 }

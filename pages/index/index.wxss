@@ -60,7 +60,7 @@
   text-indent: 2em;
   font-size: 32rpx;
   padding: 20rpx 0;
-  border-bottom: 1rpx dashed var(--themeColor);
+  border-bottom: 1rpx dashed var(--focusColor);
 }
 
 .about .content .row:first-child {
@@ -70,6 +70,10 @@
 .about .content .row:last-child {
   padding-bottom: 0;
   border-bottom: none;
+}
+
+.news {
+  padding: 50rpx 30rpx;
 }
 
 page {

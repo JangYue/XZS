@@ -51,7 +51,7 @@
       text-indent: 2em;
       font-size: 32rpx;
       padding:20rpx 0;
-      border-bottom: 1rpx dashed var(--themeColor);
+      border-bottom: 1rpx dashed var(--focusColor);
     }
     .row:first-child{
       padding-top: 0;
@@ -61,6 +61,11 @@
       border-bottom: none;
     }
   }
+  
+}
+// 新闻咨询
+.news{
+  padding: 50rpx 30rpx;
 }
 
 page{

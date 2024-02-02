@@ -1,0 +1,25 @@
+<!--components/xzs-news-item/xzs-news-item.wxml-->
+<view class="nsitem">
+  <view class="pic">
+    <image class="img" src="/images/propic.jpg" mode="aspectFill"></image>
+  </view>
+  <view class="text">
+    <view class="title">
+      新闻模块的标题文字新闻模块的标题文字新闻模块的标题文字新闻模块的标题文字
+    </view>
+    <view class="info">
+      <view class="block">
+       <van-icon  name="clock-o" size="14"/>
+        <text>02-13</text>
+      </view>
+      <view class="block">
+        <van-icon name="eye-o" size="14"/>
+        <text>99</text>
+      </view>
+      <view class="block">
+        <van-icon name="user-o" size="14"/>
+        <text>张三</text>
+      </view>
+    </view>
+  </view>
+</view>

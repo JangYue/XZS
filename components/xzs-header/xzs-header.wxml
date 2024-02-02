@@ -3,6 +3,6 @@
     <image src="/images/logo.jpg" mode="heightFix" class="pic"></image>
   </navigator>
   <view class="search">
-    <icon type="success" color="#BDA066"></icon>
+    <van-icon name="search" size="50rpx" color="#BDA066"/>
   </view>
 </view>
