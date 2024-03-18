@@ -25,6 +25,9 @@ Page({
         res.data.view_count = formatNum(res.data.view_count)
         res.data.content = res.data.content.replace(/<p/gi,"<p class='pstyle'") 
         res.data.content = res.data.content.replace(/<img/gi,"<img class='imgstyle'") 
+        wx.setNavigationBarTitle({
+          title: res.data.title,
+        })
         this.setData({
           detail:res.data
         })
@@ -78,6 +81,16 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage() {
-
+    return {
+      title:this.data.detail.title,
+      path:"/pages/newsDetail/newsDetail?"+this.data.detail._id
+    }
+  },
+  // 分享到朋友圈
+  onShareTimeline(){
+    return {
+      title:this.data.detail.title,
+      path:"/pages/newsDetail/newsDetail?"+this.data.detail._id
+    }
   }
 })

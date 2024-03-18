@@ -1,4 +1,8 @@
 <view class="detail">
+<!-- 骨架屏 -->
+ <view style="padding: 80rpx 30rpx;" wx:if="{{!detail}}">
+  <van-skeleton title avatar row="5"/>
+ </view>
   <view class="title">{{detail.title}}</view>
   <view class="info">
     <view class="left">      
