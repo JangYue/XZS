@@ -47,7 +47,7 @@
   align-items: center;
 }
 
-.nsitem .text .info van-icon {
+.nsitem .text .info .vanicon {
   color: var(--descColor);
   margin-right: 6rpx;
 }

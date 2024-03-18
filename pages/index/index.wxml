@@ -35,12 +35,12 @@
 </view>
 <view class="scrollNav">
   <scroll-view scroll-x>
-    <navigator url="" class="item" wx:for="{{6}}" wx:key="index">
+    <navigator url="" class="item" wx:for="{{navArr}}" wx:key="_id">
       <view class="pic">
-        <image src="/images/navicon{{index+1}}.png" mode=""/>
+        <image src="{{item.icon}}" mode=""/>
       </view>
       <view class="text">
-        明星茶
+        {{item.classname}}
       </view>
     </navigator>
   </scroll-view>
@@ -66,8 +66,8 @@
     <view class="line"></view>
   </view>
   <view class="content">
-    <view class="box" wx:for="{{3}}" wx:key="index">
-      <xzs-news-item></xzs-news-item>
+    <view class="box" wx:for="{{newsArr}}" wx:key="_id">
+      <xzs-news-item item="{{item}}"></xzs-news-item>
     </view>
   </view>
 </view>

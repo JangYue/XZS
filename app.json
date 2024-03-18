@@ -41,7 +41,8 @@
     "xzs-news-item":"components/xzs-news-item/xzs-news-item",
     "xzs-footer":"components/xzs-footer/xzs-footer",
     "van-button": "/miniprogram/miniprogram_npm/@vant/weapp/button/index",
-    "van-icon":"/miniprogram/miniprogram_npm/@vant/weapp/icon/index"
+    "van-icon":"/miniprogram/miniprogram_npm/@vant/weapp/icon/index",
+    "van-loading":"/miniprogram/miniprogram_npm/@vant/weapp/loading/index"
   },
   "lazyCodeLoading": "requiredComponents"
 }

@@ -2,6 +2,9 @@
   "compileType": "miniprogram",
   "libVersion": "trial",
   "setting": {
+    " useCompilerPlugins": [
+      "scss"
+    ],
     "coverView": true,
     "es6": true,
     "postcss": true,

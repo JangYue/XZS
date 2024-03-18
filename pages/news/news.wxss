@@ -1,1 +1,14 @@
 /* pages/news/news.wxss */
+.news {
+  padding: 30rpx;
+}
+
+.news .loadout {
+  text-align: center;
+  padding: 30rpx 0;
+}
+
+.news .loadout .noData {
+  font-size: 30rpx;
+  color: #666;
+}
