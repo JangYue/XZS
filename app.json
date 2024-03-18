@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/classify/classify",
-    "pages/news/news"
+    "pages/news/news",
+    "pages/newsDetail/newsDetail"
   ],
   "window": {
     "backgroundTextStyle":"light",
