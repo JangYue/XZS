@@ -25,3 +25,21 @@ export function newsDetail(data){
     data
   })
 }
+
+// 获取产品列表
+export function queryProduct(data){
+  return request({
+    url:"/product/getlist",
+    method:"POST",
+    data
+  })
+}
+
+// 获取产品列表详情
+export function getProList(data){
+  return request({
+    url:"/product/detail",
+    method:"POST",
+    data
+  })
+}

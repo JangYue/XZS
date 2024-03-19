@@ -11,9 +11,16 @@
     "miniprogram": {
       "list": [
         {
-          "name": "pages/newsDetail/newsDetail",
-          "pathName": "pages/newsDetail/newsDetail",
-          "query": "id=63c3826e819ce8640c852018",
+          "name": "pages/proDetail/proDetail",
+          "pathName": "pages/proDetail/proDetail",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/classify/classify",
+          "pathName": "pages/classify/classify",
+          "query": "",
           "launchMode": "default",
           "scene": null
         },

@@ -1,6 +1,7 @@
 // pages/newsDetail/newsDetail.js
 import {newsDetail} from "../../api/apis"
 import { formatNum, formatTime } from "../../utils/common";
+let id=""
 Page({
 
   /**
@@ -13,13 +14,15 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
+  /**页面传递的参数 在options中 */ 
   onLoad(options) {
+    id = options.id;
     this.getDetail();
   },
     // 获取详情页数据
     getDetail(){
       newsDetail({
-        id:"63c3826e819ce8640c852018"
+        id
       }).then((res)=>{
         res.data.publish_date = formatTime(res.data.publish_date,6)
         res.data.view_count = formatNum(res.data.view_count)

@@ -19,6 +19,10 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    clickPhone(){
+      wx.makePhoneCall({
+        phoneNumber: '188899999',
+      })
+    }
   }
 })

@@ -1,5 +1,5 @@
 <!--components/xzs-news-item/xzs-news-item.wxml-->
-<navigator url="/pages/newsDetail/newsDetail" class="nsitem">
+<navigator url="/pages/newsDetail/newsDetail?id={{item._id}}" class="nsitem">
   <view class="pic">
     <image class="img" src="{{item.picurl}}" mode="aspectFill"></image>
   </view>

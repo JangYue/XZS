@@ -1,2 +1,34 @@
 <!--pages/classify/classify.wxml-->
 <xzs-header></xzs-header>
+<view class="banner">
+  <image src="/images/teaBanner.jpg" class="pic" mode="aspectFill"/>
+</view>
+<!-- 导航 -->
+<view class="nav">
+  <van-tabs 
+    border 
+    id='myTabs'
+    color="#BDA066" 
+    title-active-color="#BDA066" 
+    active="{{ navActive }}"
+    bind:click="navChange"
+  >
+  <van-tab  title="{{item.classname}}" wx:for="{{navArr}}" wx:key="_id"></van-tab>
+</van-tabs>
+</view>
+
+<view class="content">
+  <view class="body">
+    <view class="box"  wx:for="{{proArr}}" wx:key="_id">
+      <xzs-product-item item="{{item}}"></xzs-product-item>
+    </view>
+  </view>
+  <view class="loadout">
+    <van-loading size="24px" wx:if="{{loading}}">加载中...</van-loading>
+    <view class="noData" wx:if="{{isData}}">
+       没有更多数据了~
+    </view>
+  </view>
+</view>
+
+<xzs-footer></xzs-footer>

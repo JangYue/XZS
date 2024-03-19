@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/classify/classify",
     "pages/news/news",
-    "pages/newsDetail/newsDetail"
+    "pages/newsDetail/newsDetail",
+    "pages/proDetail/proDetail"
   ],
   "window": {
     "backgroundTextStyle":"light",
@@ -30,7 +31,7 @@
         "selectedIconPath": "images/all-fill.png"
       },
       {
-        "text":"咨询",
+        "text":"咨讯",
         "pagePath": "pages/news/news",
         "iconPath": "images/news.png",
         "selectedIconPath": "images/news-fill.png"
@@ -41,12 +42,14 @@
     "xzs-header":"components/xzs-header/xzs-header",
     "xzs-news-item":"components/xzs-news-item/xzs-news-item",
     "xzs-footer":"components/xzs-footer/xzs-footer",
+    "xzs-product-item":"components/xzs-product-item/xzs-product-item",
     "van-button": "/miniprogram/miniprogram_npm/@vant/weapp/button/index",
     "van-icon":"/miniprogram/miniprogram_npm/@vant/weapp/icon/index",
     "van-loading":"/miniprogram/miniprogram_npm/@vant/weapp/loading/index",
-    "van-skeleton":"miniprogram/miniprogram_npm/@vant/weapp/skeleton/index"
-  
-  
+    "van-skeleton":"miniprogram/miniprogram_npm/@vant/weapp/skeleton/index",
+    "van-tab": "/miniprogram/miniprogram_npm/@vant/weapp/tab/index",
+    "van-tabs": "/miniprogram/miniprogram_npm/@vant/weapp/tabs/index"
+   
   },
   "lazyCodeLoading": "requiredComponents"
 }
